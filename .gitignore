@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+
+# Optional local env vars
+.env
+.env.*
+
+# Build outputs
+dataset_out/
+dataset_cache/
+baseline_out/
+_feature_cache/
+.tldextract_cache/
+data/processed/known/train_backup.csv
+
+# Paper / submission artifacts (not part of codebase)
+springer_FDSE_*.pdf
+Report___*.pdf
+*Capstone Guidelines.pdf
+springer_FDSE_*.zip
+
+# Kaggle execution notebooks (run on Kaggle kernels, not reproducible locally)
+kaggle_*.ipynb
+add_react_seeds.ipynb
+run_missing_extra_ood.ipynb
+
+# Large binary artifacts
+*.zip
+
+# Per-seed raw outputs (score CSVs, model weights, per-seed results.json)
+multi_seed_results/
+
+# Dataset (download from HuggingFace — see README)
+data/
+
+# Trained model weights (too large; reproduce via run_multi_seed.py)
+models/
+
+# Scratch / working files
+fig3_*.json
+fig3_embed.js
+report_text.txt
+build_pdf.py
+generate_results_md.py
+verify_demo.py
+
+# Derived outputs (not source code)
+RESULTS.md
+tables_corrected.tex

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the following paper."
+type: software
+title: "OpenSetDGA: A Benchmark for Open-Set Domain Generation Algorithm Detection"
+repository-code: "https://github.com/quanturong/OpenSetDGA-A-Benchmark-for-Open-Set-Domain-Generation-Algorithm-Detection"
+url: "https://huggingface.co/datasets/ThanhPhuongtphz/OpenSetDGA-Detection"
+license: MIT
+version: "1.0.0"
+date-released: "2026-09-21"
+authors:
+  - family-names: "Trương"
+    given-names: "Nguyễn Hoàng Quân"
+    affiliation: "University of Information Technology, VNU-HCM"
+  - family-names: "Nguyễn"
+    given-names: "Ngọc Thanh Phương"
+    affiliation: "University of Information Technology, VNU-HCM"
+  - family-names: "Phan"
+    given-names: "Thế Duy"
+    affiliation: "Vietnam National University, Ho Chi Minh City"
+preferred-citation:
+  type: conference-paper
+  title: "OpenSetDGA: A Benchmark for Open-Set Domain Generation Algorithm Detection"
+  authors:
+    - family-names: "Trương"
+      given-names: "Nguyễn Hoàng Quân"
+    - family-names: "Nguyễn"
+      given-names: "Ngọc Thanh Phương"
+    - family-names: "Phan"
+      given-names: "Thế Duy"
+  collection-title: "Proceedings of the 13th International Conference on Frontiers of Information Technology, Software Engineering and Large-scale Distributed Intelligent Systems (FDSE 2026)"
+  publisher: "Springer"
+  year: 2026
