@@ -91,6 +91,48 @@ Output is written to `baseline_out/<model>_s<seed>/results.json`.
 
 ---
 
+## Lexical features
+
+`src/features.py` computes 38 features per domain (exported as `FEATURE_NAMES`):
+
+| # | Feature | # | Feature |
+|---|---------|---|---------|
+| 1 | length | 20 | longest_consonant_run |
+| 2 | sld_length | 21 | longest_digit_run |
+| 3 | n_labels | 22 | consec_consonant_ratio |
+| 4 | digit_count | 23 | consec_digit_ratio |
+| 5 | digit_ratio | 24 | repeated_char_ratio |
+| 6 | alpha_count | 25 | gini_index |
+| 7 | alpha_ratio | 26 | has_digits |
+| 8 | hyphen_count | 27 | starts_with_digit |
+| 9 | hyphen_ratio | 28 | digit_alpha_transitions |
+| 10 | vowel_count | 29 | max_label_length |
+| 11 | vowel_ratio | 30 | mean_label_length |
+| 12 | consonant_count | 31 | std_label_length |
+| 13 | consonant_ratio | 32 | tld_is_common |
+| 14 | unique_chars | 33 | sld_digit_ratio |
+| 15 | unique_char_ratio | 34 | sld_entropy |
+| 16 | hex_char_ratio | 35 | subdomain_count |
+| 17 | char_entropy | 36 | markov_log_likelihood |
+| 18 | bigram_entropy | 37 | kl_div_from_benign |
+| 19 | trigram_entropy | 38 | compression_ratio |
+
+## LightGBM hyperparameters
+
+| Parameter | Binary | Multiclass |
+|-----------|--------|------------|
+| n_estimators | 1000 | 800 |
+| learning_rate | 0.05 | 0.05 |
+| num_leaves | 63 | 63 |
+| max_depth | −1 | −1 |
+| class_weight | balanced | balanced |
+| objective | binary | multiclass |
+| early_stopping patience | 50 | 50 |
+
+All other parameters use LightGBM library defaults. Each run uses the split-specific random seed.
+
+---
+
 ## Results
 
 Mean ± std over 5 seeds. **Bold** = best per column. Full tables (AUPR, Prec@95) are in the paper.
