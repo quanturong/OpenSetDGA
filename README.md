@@ -119,7 +119,7 @@ Mean ± std over 5 seeds. **Bold** = best per column. Full tables (AUPR, Prec@95
 | BiLSTM | Mahalanobis | 0.6119 ± 0.0107 | 0.8844 ± 0.0128 |
 | BiLSTM | KNN k=5 | 0.6109 ± 0.0113 | 0.8689 ± 0.0116 |
 | BiLSTM | Hybrid E+KNN | 0.8122 ± 0.0088 | 0.5116 ± 0.0143 |
-| BiLSTM | **ReAct p=95** | **0.8636 ± 0.0116** | 0.4623 ± 0.0557 |
+| BiLSTM | **ReAct p=95** | **0.8636 ± 0.0116** | 0.4623 ± 0.0702 |
 | BiLSTM-OE | MSP | 0.7037 ± 0.0100 | 0.8192 ± 0.0207 |
 | BiLSTM-OE | Energy | 0.7008 ± 0.0096 | 0.6893 ± 0.0204 |
 | BiLSTM | Hybrid LR‡ | 0.8114 ± 0.0108 | 0.5111 ± 0.0220 |
@@ -134,7 +134,7 @@ Mean ± std over 5 seeds. **Bold** = best per column. Full tables (AUPR, Prec@95
 | CNN | KNN k=5 | 0.6857 ± 0.0071 | 0.8411 ± 0.0140 |
 | BiLSTM | MSP | 0.4874 ± 0.0072 | 0.9714 ± 0.0064 |
 | BiLSTM | Energy | 0.5786 ± 0.0185 | 0.8929 ± 0.0329 |
-| BiLSTM | ReAct p=90 | 0.5338 ± 0.0147 | 0.9297 ± 0.0167 |
+| BiLSTM | ReAct p=95 | 0.5503 ± 0.0133 | 0.9197 ± 0.0204 |
 | BiLSTM | Hybrid E+KNN | 0.7012 ± 0.0100 | 0.7263 ± 0.0075 |
 | BiLSTM | **KNN k=5** | **0.7224 ± 0.0021** | **0.6827 ± 0.0054** |
 | BiLSTM | Hybrid LR‡ | 0.7018 ± 0.0067 | 0.7263 ± 0.0034 |
