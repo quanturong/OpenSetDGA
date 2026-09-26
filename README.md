@@ -50,8 +50,8 @@ OpenSetDGA-Detection/
 ## Quick start
 
 ```bash
-git clone https://github.com/quanturong/OpenSetDGA-A-Benchmark-for-Open-Set-Domain-Generation-Algorithm-Detection.git
-cd OpenSetDGA-A-Benchmark-for-Open-Set-Domain-Generation-Algorithm-Detection
+git clone https://github.com/quanturong/OpenSetDGA.git
+cd OpenSetDGA
 pip install -r requirements.txt
 ```
 
